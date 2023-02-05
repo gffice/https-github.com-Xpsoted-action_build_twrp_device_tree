@@ -6,7 +6,7 @@ on:
       IMG_URL:    
         description: 'IMG_URL'
         required: true
-        default: ''
+        default: 'https://raw.githubusercontent.com/jgckM/action_build_twrp_device_tree/main/recovery.img'
 
 jobs:
   build:
